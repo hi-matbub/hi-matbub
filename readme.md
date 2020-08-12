@@ -1,11 +1,3 @@
-# Nice to meet you.
-
-I'm Mat, a minimalist and open source enthusiast. 
-
-## Education
-
-**Bloc** - Web Developer Track | _2019 - 2020_
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hi-matbub&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <p align='right'>
