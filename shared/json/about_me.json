@@ -6,49 +6,122 @@
   "linkedin" : "https://www.linkedin.com/in/matthewbub/",
   "github" : "https://github.com/hi-matbub",
   "skills" : ["HTML5", "CSS3", "JavaScript", "React.js", "Node.js"],
-  "cloud_services" : ["Adobe Creative Cloud", "Google Cloud Platform"],
-  "about_me" : {
-    "intro" : "I’m a software engineer passionate about building scalable applications using clean and maintainable code.",
-    "tech" : "I specialize in soft skills and technologies such as: JavaScript ES6, React.js, Node.js, CSS3, HTML5, APIs and Adobe CC.",
-    "exp" : {
-      "breif_" : "I've spent the last 4 years:",
-      "points" : {
-        "point_1" : "Providing solutions to corporations such as Facebook and Spotify.",
-        "point_2" : "Working with startups such as Shipmonk to develop and implement strategies aimed at client retention.",
-        "point_3" : "Working closely with Realtors, Brokers and Lenders to develop and curate marketing and email drip campaigns."
-      }
+  "cloud_services" : ["Adobe Creative Cloud", "Google Cloud Platform"],  
+  "intro" : "I’m a software engineer passionate about building scalable applications using clean and maintainable code.",
+  "tech" : "I specialize in soft skills and technologies such as: JavaScript ES6, React.js, Node.js, CSS3, HTML5, APIs and Adobe CC.",
+  "exp" : {
+    "breif_" : "I've spent the last 4 years:",
+    "points" : {
+      "point_1" : "Providing solutions to corporations such as Facebook and Spotify.",
+      "point_2" : "Working with startups such as Shipmonk to develop and implement strategies aimed at client retention.",
+      "point_3" : "Working closely with Realtors, Brokers and Lenders to develop and curate marketing and email drip campaigns."
+    }
+  },
+  "involvements" : {
+    "inv_1" : {
+      "id" : 1,
+      "title" : "Front End",
+      "co" : "Facebook's Docusaurus V2",
+      "url" : "https://v2.docusaurus.io"
     },
-    "involvements" : {
-      "inv_1" : {
-        "id" : 1,
-        "title" : "Front End",
-        "co" : "https://v2.docusaurus.io"
-      },
-      "inv_2" : {
-        "id" : 2,
-        "title" : "Front End",
-        "co" : "https://backstage.io"
-      },
-      "inv_3" : {
-        "id" : 3,
-        "title" : "Full Stack",
-        "co" : "https://learnflexbox.us"
-      },
-      "inv_4" : {
-        "id" : 4,
-        "title" : "Development Tutor",
-        "co" : "UCLA with Trilogy"
-      },
-      "inv_5" : {
-        "id" : 5,
-        "title" : "Web Developer",
-        "co" : "Bloc"
-      },
-      "inv_6" : {
-        "id" : 6,
-        "title" : "Senior Project Manager",
-        "co" : "ShipMonk"
-      }
+    "inv_2" : {
+      "id" : 2,
+      "title" : "Front End",
+      "co" : "Shopify's Backstage Service",
+      "url" : "https://backstage.io"
+    },
+    "inv_3" : {
+      "id" : 3,
+      "title" : "Full Stack",
+      "co" : "Learn FlexBox",
+      "url" : "https://learnflexbox.us"
+    },
+    "inv_4" : {
+      "id" : 4,
+      "title" : "Development Tutor",
+      "co" : "UCLA with Trilogy",
+      "url" : "https://www.linkedin.com/company/trilogy-education-services/"
+    },
+    "inv_5" : {
+      "id" : 5,
+      "title" : "Web Developer",
+      "co" : "Bloc",
+      "url" : "https://www.linkedin.com/school/bloc/about/"
+    },
+    "inv_6" : {
+      "id" : 6,
+      "title" : "Senior Project Manager",
+      "co" : "ShipMonk",
+      "url" : "https://www.linkedin.com/company/shipmonk/"
+    }
+  },
+  "archives"  : {
+    "arc_1" : {
+      "id" : 1,
+      "title" : "Back End",
+      "co" : "Fake-Things",
+      "url" : "https://www.npmjs.com/package/fake-things"
+    },
+    "arc_2" : {
+      "id" : 2,
+      "title" : "Front End",
+      "co" : "FreeCodeCamp",
+      "url" : "https://freeCodeCamp.org"
+    },
+    "arc_3" : {
+      "id" : 3,
+      "title" : "Front End",
+      "co" : "PASTEO Debugger",
+      "url" : "https://github.com/mehdibo/paseto-debugger"
+    }
+  },
+  "resources" : {
+    "learnflexbox" : {
+      "id" : "1",
+      "title" : "Learn Flexbox",
+      "url" : "https://learnflexbox.us"
+    },
+    "markdown" : {
+      "id" : "2",
+      "title" : "Markdown Guide",
+      "url" : "https://github.com/hi-matbub/markdown-guide"
+    },
+    "json" : {
+      "id" : "3",
+      "title" : "Learn JSON",
+      "url" : "https://github.com/hi-matbub/markdown-guide"
+    }
+  },
+  "certificates" : {
+    "1" : {
+      "id" : "1",
+      "title" : "Web Development",
+      "co" : "Bloc",
+      "path" : "./bloc.pdf"
+    },
+    "2" : {
+      "id" : "2",
+      "title" : "UI for Web Design",
+      "co" : "LinkedIn",
+      "path" : "./UI_for_web_design.pdf"
+    },
+    "3" : {
+      "id" : "3",
+      "title" : "No Code Solutions",
+      "co" : "LinkedIn",
+      "path" : "./no_code.pdf"
+    },
+    "4" : {
+      "id" : "4",
+      "title" : "Programming Foundations",
+      "co" : "LinkedIn",
+      "path" : "./programming_foundations.pdf"
+    },
+    "5" : {
+      "id" : "5",
+      "title" : "Succeeding in Web Development",
+      "co" : "LinkedIn",
+      "path" : "./succeeding_in_web_development.pdf"
     }
   }
 }

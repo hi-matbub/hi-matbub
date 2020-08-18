@@ -6,10 +6,77 @@ import { motion } from "framer-motion"
 
 const date = new Date().getFullYear()
 
+const Involvements = () => {
+  const array = Object.keys(data.involvements)
+  return (
+    <ul className='mt-4 mb-4'>
+      {array.map(i => (        
+        <li key={data.involvements[i].title}>
+          {data.involvements[i].title}
+          &nbsp; @ &nbsp; 
+          <a href={data.involvements[i].url} target='_blank'> 
+            {data.involvements[i].co}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+const Resources = () => {
+  const array = Object.keys(data.resources)
+  return (
+    <ul className='mt-4 mb-4'>
+      {array.map(i => (        
+        <li key={data.resources[i].title}>          
+          <a href={data.resources[i].url} target='_blank'> 
+            {data.resources[i].title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+const Archives = () => {
+  const array = Object.keys(data.archives)
+  return (
+    <ul className='mt-4 mb-4'>
+      {array.map(i => (        
+        <li key={data.archives[i].title}>
+          {data.archives[i].title}
+          &nbsp; @ &nbsp; 
+          <a href={data.archives[i].url} target='_blank'> 
+            {data.archives[i].co}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+const Certificates = () => {
+  const array = Object.keys(data.certificates)
+  return (
+    <ul className='mt-4 mb-4'>
+      {array.map(i => (        
+        <li key={data.certificates[i].title}>          
+          <a href={data.certificates[i].path} target='_blank'> 
+            <i>
+            {data.certificates[i].title}
+              &nbsp; @ &nbsp; 
+            {data.certificates[i].co}
+            </i>
+          </a>
+        </li>
+      ))}
+    </ul>
+  )
+}
+
 const Content = (props) => {
   return( 
-    <div className={clsx(props.className, 'flex-column')}>
-      
+    <div className={clsx(props.className, 'flex-column')}>      
       <div className="avatar row justify-content-end mt-5 mb-5">
         <img src={data.avatar} alt="" style={{borderRadius: '50%', opacity: '.7'}}/>
       </div>      
@@ -24,59 +91,33 @@ const Content = (props) => {
         </a>
         <Particle />
       </div>
-
       <div id="container">
         <a href={`mailto:${data.email}`} target='_blank'>{data.email}</a>      
         <hr></hr>
         <br/>
         <p>
           <span style={{fontSize: '24px', lineHeight: '0'}}><b>{'Hi there'}</b></span>, &nbsp; 
-          {data.about_me.intro}
+          {data.intro}
           <br/><br/>
-          {data.about_me.tech}          
+          {data.tech}          
         </p>
-        <h3>Involvements</h3>
-        <ul className='mb-4'>
-          <li>
-            {data.about_me.involvements.inv_1.title} 
-              &nbsp;@&nbsp; 
-              <a href={data.about_me.involvements.inv_1.co} 
-                target='blank_'>
-                  {data.about_me.involvements.inv_1.co}
-              </a>
-          </li>
-          <li>
-            {data.about_me.involvements.inv_2.title} 
-              &nbsp;@&nbsp; 
-              <a href={data.about_me.involvements.inv_2.co} 
-                target='blank_'>
-                  {data.about_me.involvements.inv_2.co}
-              </a>
-          </li>          
-          <li>
-            {data.about_me.involvements.inv_3.title} 
-              &nbsp;@&nbsp; 
-              <a href={data.about_me.involvements.inv_3.co} 
-                target='blank_'>
-                  {data.about_me.involvements.inv_3.co}
-              </a>
-          </li>
-          <li>
-            {data.about_me.involvements.inv_4.title} 
-              &nbsp;@&nbsp; 
-              {data.about_me.involvements.inv_4.co}
-          </li>
-          <li>
-            {data.about_me.involvements.inv_5.title} 
-              &nbsp;@&nbsp; 
-              {data.about_me.involvements.inv_5.co}
-          </li>
-          <li>
-            {data.about_me.involvements.inv_6.title} 
-              &nbsp;@&nbsp; 
-              {data.about_me.involvements.inv_6.co}
-          </li>
-        </ul>        
+
+        <h3 className='mt-5'>Involvements</h3>
+        <small>{'Featured & professional involvements.'}</small>
+        <Involvements /> 
+        
+        <h3 className='mt-5'>Resources</h3>
+        <small>{'Open Source resources I maintain as side-projects.'}</small>
+        <Resources />
+
+        <h3 className='mt-5'>Archives</h3>
+        <small>{'Project\'s & involvements that didn\'t quite make the featured list.'}</small>
+        <Archives />
+
+        <h3 className='mt-5'>Certificates</h3>
+        <small>{'Certified resources I apply to my everyday workflow.'}</small>
+        <Certificates />
+
         <a href='mailto:hi@matbub.co' target='_blank'>
           <i>Let's get in touch.
             &nbsp;&nbsp;
