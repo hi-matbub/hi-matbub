@@ -13,10 +13,10 @@ const Involvements = () => {
       {array.map(i => (        
         <li key={data.involvements[i].title}>
           {data.involvements[i].title}
-          &nbsp; @ &nbsp; 
-          <a href={data.involvements[i].url} target='_blank'> 
-            {data.involvements[i].co}
-          </a>
+            &nbsp; @ &nbsp; 
+            <a href={data.involvements[i].url} target='_blank'> 
+              <u>{data.involvements[i].co}</u>
+            </a>
         </li>
       ))}
     </ul>
@@ -30,7 +30,7 @@ const Resources = () => {
       {array.map(i => (        
         <li key={data.resources[i].title}>          
           <a href={data.resources[i].url} target='_blank'> 
-            {data.resources[i].title}
+            <u>{data.resources[i].title}</u>
           </a>
         </li>
       ))}
@@ -45,10 +45,10 @@ const Archives = () => {
       {array.map(i => (        
         <li key={data.archives[i].title}>
           {data.archives[i].title}
-          &nbsp; @ &nbsp; 
-          <a href={data.archives[i].url} target='_blank'> 
-            {data.archives[i].co}
-          </a>
+            &nbsp; @ &nbsp; 
+            <a href={data.archives[i].url} target='_blank'> 
+              <u>{data.archives[i].co}</u>
+            </a>
         </li>
       ))}
     </ul>
@@ -63,9 +63,11 @@ const Certificates = () => {
         <li key={data.certificates[i].title}>          
           <a href={data.certificates[i].path} target='_blank'> 
             <i>
-            {data.certificates[i].title}
-              &nbsp; @ &nbsp; 
-            {data.certificates[i].co}
+              <u>
+                {data.certificates[i].title}
+                  &nbsp; @ &nbsp; 
+                {data.certificates[i].co}
+              </u>
             </i>
           </a>
         </li>
@@ -99,7 +101,13 @@ const Content = (props) => {
           <span style={{fontSize: '24px', lineHeight: '0'}}><b>{'Hi there'}</b></span>, &nbsp; 
           {data.intro}
           <br/><br/>
-          {data.tech}          
+          {'I specialize in soft skills, as well as integrating and developing Front End interfaces.'} 
+          <br/><br/>
+          <i>{'I also specialize in email curation.'}</i>
+          <br/><br/>
+          {data.tech} 
+          <br/><br/>
+          {data.back_end}             
         </p>
 
         <h3 className='mt-5'>Involvements</h3>

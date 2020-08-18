@@ -5,10 +5,12 @@
   "email" : "hi@matbub.co",
   "linkedin" : "https://www.linkedin.com/in/matthewbub/",
   "github" : "https://github.com/hi-matbub",
-  "skills" : ["HTML5", "CSS3", "JavaScript", "React.js", "Node.js"],
+  "skills" : ["JavaScript ES6", "React.js", "Node.js", "CSS3", "HTML5", "APIs", "Bootstrap", "Adobe CC", "Google CP", "No-Code Services"],
   "cloud_services" : ["Adobe Creative Cloud", "Google Cloud Platform"],  
   "intro" : "I’m a software engineer passionate about building scalable applications using clean and maintainable code.",
-  "tech" : "I specialize in soft skills and technologies such as: JavaScript ES6, React.js, Node.js, CSS3, HTML5, APIs and Adobe CC.",
+  "about_me" : "I specialize in soft skills, as well as integrating and developing Front End interfaces. I also specialize in email curation.",
+  "tech" : "My technologies of choice would include but are not limited to: JavaScript ES6, React.js, Node.js, CSS3, HTML5, APIs, Bootstrap, Adobe CC, Google CP and No-Code Services.",
+  "back_end" : "I love the convience of Serverless Backends such as AWS or Firebase, however I am well versed in TTD and Server Side tech such as SQL, postgreSQL, mySQL, and mongo.db",
   "exp" : {
     "breif_" : "I've spent the last 4 years:",
     "points" : {
