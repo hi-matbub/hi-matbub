@@ -77,6 +77,13 @@ const Content = (props) => {
               {data.about_me.involvements.inv_6.co}
           </li>
         </ul>        
+        <a href='mailto:hi@matbub.co' target='_blank'>
+          <i>Let's get in touch.
+            &nbsp;&nbsp;
+            <small>{'>>'}</small>
+          </i>
+        </a>
+
       </div>
       <hr></hr>
       <footer className='d-flex flex-column mb-5'>

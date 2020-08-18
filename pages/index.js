@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>hi-matbub</title>
+        <title>Matthew bub</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='container-fluid d-flex justify-content-center align-items-center'>
