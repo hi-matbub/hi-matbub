@@ -103,19 +103,19 @@ const Content = (props) => {
         </p>
 
         <h3 className='mt-5'>Involvements</h3>
-        <small>{'Featured & professional involvements.'}</small>
+        <small className='small'>{'Featured & professional involvements.'}</small>
         <Involvements /> 
         
         <h3 className='mt-5'>Resources</h3>
-        <small>{'Open Source resources I maintain as side-projects.'}</small>
+        <small className='small'>{'Open Source resources I maintain as side-projects.'}</small>
         <Resources />
 
         <h3 className='mt-5'>Archives</h3>
-        <small>{'Project\'s & involvements that didn\'t quite make the featured list.'}</small>
+        <small className='small'>{'Project\'s & involvements that didn\'t quite make the featured list.'}</small>
         <Archives />
 
         <h3 className='mt-5'>Certificates</h3>
-        <small>{'Certified resources I apply to my everyday workflow.'}</small>
+        <small className='small'>{'Certified resources I apply to my everyday workflow.'}</small>
         <Certificates />
 
         <a href='mailto:hi@matbub.co' target='_blank'>
