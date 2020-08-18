@@ -14,3 +14,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1,
+a,
+p,
+h3,
+li,
+small {
+  color: #DEDEDE !important;
+}
+
+.h1 {
+  font-size: 80px !important;
+}
+
+button {
+  background: none !important;
+  border: none !important;
+}

@@ -1,0 +1,54 @@
+{
+  "name" : "Matthew R. Bub",
+  "title" : "Web Developer",
+  "avatar" : "https://avatars.githubusercontent.com/hi-matbub?size=120",
+  "email" : "hi@matbub.co",
+  "linkedin" : "https://www.linkedin.com/in/matthewbub/",
+  "github" : "https://github.com/hi-matbub",
+  "skills" : ["HTML5", "CSS3", "JavaScript", "React.js", "Node.js"],
+  "cloud_services" : ["Adobe Creative Cloud", "Google Cloud Platform"],
+  "about_me" : {
+    "intro" : "I’m a software engineer passionate about building scalable applications using clean and maintainable code.",
+    "tech" : "I specialize in soft skills and technologies such as: JavaScript ES6, React.js, Node.js, CSS3, HTML5, APIs and Adobe CC.",
+    "exp" : {
+      "breif_" : "I've spent the last 4 years:",
+      "points" : {
+        "point_1" : "Providing solutions to corporations such as Facebook and Spotify.",
+        "point_2" : "Working with startups such as Shipmonk to develop and implement strategies aimed at client retention.",
+        "point_3" : "Working closely with Realtors, Brokers and Lenders to develop and curate marketing and email drip campaigns."
+      }
+    },
+    "involvements" : {
+      "inv_1" : {
+        "id" : 1,
+        "title" : "Front End",
+        "co" : "https://v2.docusaurus.io"
+      },
+      "inv_2" : {
+        "id" : 2,
+        "title" : "Front End",
+        "co" : "https://backstage.io"
+      },
+      "inv_3" : {
+        "id" : 3,
+        "title" : "Full Stack",
+        "co" : "https://learnflexbox.us"
+      },
+      "inv_4" : {
+        "id" : 4,
+        "title" : "Development Tutor",
+        "co" : "UCLA with Trilogy"
+      },
+      "inv_5" : {
+        "id" : 5,
+        "title" : "Web Developer",
+        "co" : "Bloc"
+      },
+      "inv_6" : {
+        "id" : 6,
+        "title" : "Senior Project Manager",
+        "co" : "ShipMonk"
+      }
+    }
+  }
+}
