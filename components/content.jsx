@@ -103,11 +103,13 @@ const Content = (props) => {
           <br/><br/>
           {'I specialize in soft skills, as well as integrating and developing Front End interfaces.'} 
           <br/><br/>
-          <i>{'I also specialize in email curation.'}</i>
+          <i>
+            {'I also specialize in email curation.'}
+          </i>
           <br/><br/>
           {data.tech} 
           <br/><br/>
-          {data.back_end}             
+          {'I love the convenience of Serverless Backends such as AWS or Firebase, however I am well versed in TTD towards Server Side tech such as SQL, PostgreSQL, mySQL, and mongo.db'}             
         </p>
 
         <h3 className='mt-5'>Involvements</h3>

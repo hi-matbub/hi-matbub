@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='container-fluid d-flex justify-content-center align-items-center'>
-        <Content className={'col-sm-10 col-md-6 col-lg-4'}/>      
+        <Content className={'col-sm-10 col-md-7 col-lg-5'}/>      
       </div>
     </div>
   )
