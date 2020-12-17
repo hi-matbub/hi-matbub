@@ -1,16 +1,7 @@
 ## Nice to meet you. I'm Mat. :wave:
 
 I'm a Full Stack Dev with a :blue_heart: &nbsp;for **API's** and **Micro Services**. 
-I am very fond of good pratices in development. In my free time enjoy providing value to the comminuty by creating helpful resources such as:
-- [lg-coffee - an e-commerce generator](https://github.com/hi-matbub/lg-coffee)
-- [ABCSS - a CSS library](https://abcss.vercel.app/)
-- [Flexbox layout generator](https://learnflexbox.us/)
-- [Express.js server guide](https://github.com/hi-matbub/express-example)
-- [Express.js local playground](https://github.com/hi-matbub/express-build)
-- [GitHub Markdown Guide - the odd bits](https://github.com/hi-matbub/markdown-guide)
-- [How to configure ESLint and Prettier with GitHub Workflows](https://medium.com/@himatbub/how-to-set-up-github-workflows-to-work-with-eslint-and-prettier-30cf3bbac129?source=friends_link&sk=12491b273f8a023e4de12727ed623d34)
-- [How to git pull from Remote Master](https://medium.com/@himatbub/git-pull-from-remote-master-11bb3d1fe5cb?source=friends_link&sk=aeb91d3157523b6fb0576cc6f3329a49)
-- [How to connect Github to local repo](https://medium.com/@himatbub/connecting-github-to-local-repo-c21cfa6afe63?source=friends_link&sk=ef435cadd66ab43fd95000917007131d)
+I am very fond of good practices in development. In my free time enjoy providing value to the community by creating [helpful resources](/works.md).
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hi-matbub&layout=compact)
 
