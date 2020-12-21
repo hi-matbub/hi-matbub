@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Bub</title>
+    <style>
+      * {
+        /* reset */
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-size: initial;
+        font-weight: initial;        
+      }
+
+      html,
+      body {
+        display: flex;
+        flex-direction: column;        
+      }
+
+      html {
+        align-items: center;
+      }
+
+      body {
+        width: 80%;
+      }
+
+      section {
+        display: flex;
+        height: 100%;
+      }
+
+      header {
+        width: 300px;
+        height: 540px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        padding-right: .5em;
+      }
+
+      header > a {
+        margin-bottom: .75em;
+      }
+
+      img {
+        width: fit-content;
+        border-radius: 24px;
+      }
+
+      h1,
+      b,
+      h2 {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      h1 {
+        font-size: 34px;
+        font-weight: 900;
+      }      
+
+      b {
+        font-size: 20px;
+        font-weight: 900;
+      }
+
+      h2 {
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: .5em;
+      }
+
+      p,
+      span {
+        font-size: 20px;
+      }
+
+      a {
+        font-size: 16px;
+        margin-top: .5em;
+      }
+
+      #root {
+        margin-left: 300px;
+        width: 80%;
+        padding-top: 2em;
+      }
+
+      #root > div {
+        margin: 1.75em 1.75em 1.75em 0;
+        display: flex;
+        flex-direction: column;        
+      }
+
+      #root > div > a {
+        align-self: flex-end;
+      }
+
+      footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 1em;
+      }
+
+      #date {
+        margin: 2em 0;
+        align-self: center;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      li {
+        margin-top: .5em;
+      }
+
+      hr {
+        margin-bottom: .75em;
+      }
+
+      @media screen and (max-width: 862px){
+        body {
+          width: 94%;
+        }
+
+        hr {
+          display: none;
+        }
+
+        header {
+          position: relative;
+          height: fit-content;
+          width: 100%;
+          margin-top: 2em;
+        }
+
+        section {
+          flex-direction: column;
+        }
+
+        #root { 
+          width: 100%;
+          margin: 0;
+          padding-top: 1em;
+        }
+
+        #root > div {
+          margin-top: 1em;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <section>
+      <header>
+        <img
+          src="https://avatars.githubusercontent.com/hi-matbub?size=140"
+          alt="avatar"
+        />
+        <h1>Matthew Bub</h1>
+        <p>Full Stack Web Developer</p>
+        <a href="https://github.com/hi-matbub">@hi-matbub</a>
+        <hr>
+        <p>I'm a Full Stack Dev with a 💙 for good practices in development. In my free time I enjoy providing value to the community by creating helpful resources.</p>
+      </header>
+      
+      <div id="root"></div>
+    </section>
+  
+    <footer>    
+      <ul>
+        <li>
+          <b>More</b>
+        </li>
+        <li>
+          <a href="mailto:6matbub@gmail.com">Contact Me</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/matthewbub/">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/hi-matbub">GitHub</a>
+        </li>
+        <li>
+          <a href="https://medium.com/@himatbub">Medium</a>
+        </li>
+      </ul>
+      <span id="date"></span>
+    </footer>
+
+    <noscript>
+      <a href="https://github.com/hi-matbub">
+        No JavaScript? Sorry about that.
+      </a>
+    </noscript>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
