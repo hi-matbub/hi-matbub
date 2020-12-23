@@ -9,7 +9,7 @@ const build = async (
 ) => {
   for (let i = 0; i < works.length; i++) {
     document.getElementById("root").innerHTML += `
-      <div>
+      <div data-aos="fade-left">
         <h2>${works[i].project}</h2>
         <p>${works[i].description}</p>
         <a href='${works[i].path}'>View</a>
