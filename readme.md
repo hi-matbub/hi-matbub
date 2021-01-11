@@ -1,6 +1,6 @@
 ## Nice to meet you. I'm Mat. :wave:
 
-I'm a fan of Coffee and Good Practices :blue_heart: &nbsp; Check out some of my resources!
+Big fan of coffee and good practices :blue_heart: &nbsp; Check out some of my resources!
 
 <table>
   <tr>
