@@ -5,7 +5,7 @@ I'm a fan of Coffee and Good Practices :blue_heart: &nbsp; Check out some of my 
 <table>
   <tr>
     <td>
-      <a href="https://hi-matbub.medium.com/how-to-set-up-github-workflows-to-work-with-eslint-and-prettier-30cf3bbac129">lg-coffee - Bootstrap a Serverless Ecommerce Web App with Next.js and Stripe.</a> 
+      <a href="https://github.com/hi-matbub/lg-coffee">lg-coffee - Bootstrap a Serverless Ecommerce Web App with Next.js and Stripe.</a> 
     </td>
     <td>
       <a href="https://github.com/hi-matbub/conventional-commit-helper">Conventional Commit Helper Script</a> 
@@ -42,7 +42,7 @@ I'm a fan of Coffee and Good Practices :blue_heart: &nbsp; Check out some of my 
       <a href="abcss.vercel.app/">Abcss - a bare bones CSS Helper Library</a> 
     </td>
     <td>
-      <a href="https://www.npmjs.com/package/lg-calc">GitHub Markdown Guide Including the Odd Bits</a> 
+      <a href="https://github.com/hi-matbub/markdown-guide">GitHub Markdown Guide Including the Odd Bits</a> 
     </td>
    <td>
       <a href="https://learnflexbox.us/">Flexbox Layout Generator</a> 
