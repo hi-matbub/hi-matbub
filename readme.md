@@ -47,4 +47,11 @@ Big fan of coffee and good practices :blue_heart: &nbsp; Check out some of my re
    <td>
       <a href="https://learnflexbox.us/">Flexbox Layout Generator</a> 
     </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/hi-matbub/static-blog">Static Blog - SEO Friendly Blog updated by file name and 3 lines of markdown.</a>
+    </td>
+  </tr>
+
 </table>
