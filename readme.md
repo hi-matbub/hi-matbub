@@ -44,4 +44,7 @@ I'm a fan of Coffee and Good Practices :blue_heart: &nbsp; Check out some of my 
     <td>
       <a href="https://www.npmjs.com/package/lg-calc">GitHub Markdown Guide Including the Odd Bits</a> 
     </td>
+   <td>
+      <a href="https://learnflexbox.us/">Flexbox Layout Generator</a> 
+    </td>
 </table>
